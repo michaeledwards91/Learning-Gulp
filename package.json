@@ -1,0 +1,22 @@
+{
+  "name": "learning-gulp",
+  "version": "1.0.0",
+  "description": "A simple sandbox created for me to experiment with the power of Gulp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeledwards91/Learning-Gulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaeledwards91/Learning-Gulp/issues"
+  },
+  "homepage": "https://github.com/michaeledwards91/Learning-Gulp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
