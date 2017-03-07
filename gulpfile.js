@@ -15,7 +15,8 @@ gulp.task('scripts', function() {
 		.pipe(plumber())
 		.pipe(rename({suffix:'.min'}))
 		.pipe(uglify())
-		.pipe(gulp.dest('app/js'));
+		.pipe(gulp.dest('app/js'))
+		.pipe(reload({stream:true}));
 });
 
 // Compass / Sass Tasks
@@ -35,7 +36,8 @@ gulp.task('compass', function() {
 
 // HTML Tasks
 gulp.task('html', function() {
-	gulp.src('app/**/*.html');
+	gulp.src('app/**/*.html')
+		.pipe(reload({stream:true}));
 });
 
 // Browser-Sync Tasks
