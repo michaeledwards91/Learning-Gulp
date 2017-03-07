@@ -15,3 +15,7 @@
 @import "typography";
 @import "images";
 @import "icons";
+
+body {
+	background-color: $background-color;
+}
